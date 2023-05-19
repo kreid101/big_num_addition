@@ -1,0 +1,19 @@
+{
+    "name": "kreid/addition-big-numbers",
+    "description": "package allows you add big integer numbers",
+    "autoload": {
+        "psr-4": {
+            "Kreid\\AdditionBigNumbers\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kreid",
+            "email": "maga.khamat@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
